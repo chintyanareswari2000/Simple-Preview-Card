@@ -1,0 +1,98 @@
+body{
+    position: fixed;
+    margin: 0 0 0 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: auto;
+    width: 500px;
+    position: fixed;
+    top: 25%;
+    left: 24%;
+    border: none;
+}
+
+.kiri{
+    background-color: hsl(31, 77%, 52%);
+    padding: 60px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.tengah{
+    background-color: hsl(184, 100%, 22%);
+    padding: 60px;
+}
+
+.kanan{
+    background-color: hsl(179, 100%, 13%);
+    padding: 60px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.icon{
+    padding: 10px;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 80px;
+    line-height: 25px;
+}
+
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    color: white;
+    padding-bottom: 15px;
+    font-size: 35px;
+}
+
+button{
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.tombol1{
+    color: hsl(31, 77%, 52%);
+}
+
+.tombol1:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+.tombol2{
+    color: hsl(184, 100%, 22%);
+}
+
+.tombol2:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+.tombol3{
+    color: hsl(179, 100%, 13%);
+}
+
+.tombol3:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+}
